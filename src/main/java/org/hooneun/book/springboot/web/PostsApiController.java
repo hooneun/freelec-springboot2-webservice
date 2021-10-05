@@ -7,6 +7,8 @@ import org.hooneun.book.springboot.web.dto.PostsSaveRequestDto;
 import org.hooneun.book.springboot.web.dto.PostsUpdateRequestDto;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RequiredArgsConstructor
 @RestController
 public class PostsApiController {
