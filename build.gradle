@@ -32,7 +32,7 @@ dependencies {
     implementation('javax.xml.bind:jaxb-api')
 
     compileOnly('org.projectlombok:lombok:1.18.20')
-    runtimeOnly('com.h2database:h2:1.4.200')
+    runtimeOnly('com.h2database:h2:1.4.199')
 
     testImplementation('org.springframework.boot:spring-boot-starter-test:2.5.5')
 }
