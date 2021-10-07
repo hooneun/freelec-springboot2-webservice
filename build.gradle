@@ -36,6 +36,7 @@ dependencies {
     runtimeOnly('com.h2database:h2:1.4.199')
 
     testImplementation('org.springframework.boot:spring-boot-starter-test:2.5.5')
+    testImplementation('org.springframework.security:spring-security-test')
 }
 
 test {
